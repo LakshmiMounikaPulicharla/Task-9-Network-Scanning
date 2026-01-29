@@ -23,13 +23,12 @@ The objective of this task is to perform network vulnerability scanning using Nm
 - Documented all findings  
 
 ## Files in This Repository
-- Network_Scan_Report.pdf – Final report  
-- screenshots/ – Contains all scan evidence  
+- task9.pdf – Final report  
+- screenshots folder of task9 – Contains all scan evidence  
 
 ## Risk Summary
 | Issue | Risk |
 |-------|------|
-| Open SSH | Brute-force login attempts |
 | Web ports open | Remote access abuse |
 | Outdated services | Known exploits |
 | OS detected | Easier system profiling |

@@ -1,42 +1,41 @@
-project: Task 9 - Network Vulnerability Scanning
+# Task 9: Network Vulnerability Scanning
 
-author: Mounika
+## Author
+Mounika
 
-objective: 
-  To perform network vulnerability scanning using Nmap in order to
-  identify live hosts, open ports, running services, operating system
-  details, and possible security risks in a local network.
+## Objective
+The objective of this task is to perform network vulnerability scanning using Nmap to identify live hosts, open ports, running services, operating system details, and possible security risks in a local network.
 
-tools:
-  - Nmap
-  - Ubuntu Linux
+## Tools Used
+- Nmap  
+- Ubuntu Linux  
 
-target:
-  network_range: 172.16.97.128/24
-  target_host: 172.16.96.129
+## Target Information
+| Item | Value |
+|------|-------|
+| Network Range | 172.16.967.128/24 |
+| Target Host | 172.16.96.129 |
 
-steps_performed:
-  - Discovered active hosts using ping scan
-  - Scanned target for open ports
-  - Detected services and versions
-  - Identified operating system
-  - Performed vulnerability scanning
-  - Analyzed security risks
-  - Documented findings
+## Steps Performed
+- Discovered active devices in the network  
+- Scanned the target system for open ports  
+- Detected running services and versions  
+- Identified the operating system  
+- Performed vulnerability scanning  
+- Analyzed security risks  
+- Documented all findings  
 
-files:
-  report: Network_Scan_Report.pdf
-  screenshots:
-    - 1_nmap_version.png
-    - 2_network_range.png
-    - 3_live_hosts.png
-    - 4_open_ports.png
-    - 5_services.png
-    - 6_os_detection.png
-    - 7_vulnerabilities.png
+## Files in This Repository
+- Network_Scan_Report.pdf – Final report  
+- screenshots/ – Contains all scan evidence  
 
-outcome: 
-  This task helped me understand how network reconnaissance and
-  vulnerability scanning are performed in real-world security testing.
-  I learned how attackers identify systems and how defenders can find
-  security weaknesses before they are exploited.
+## Risk Summary
+| Issue | Risk |
+|-------|------|
+| Open SSH | Brute-force login attempts |
+| Web ports open | Remote access abuse |
+| Outdated services | Known exploits |
+| OS detected | Easier system profiling |
+
+## Outcome
+This task helped me understand how network reconnaissance is performed in real-world security testing. It also showed how identifying open ports and services is the first step in securing a network.

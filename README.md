@@ -1,8 +1,5 @@
 # Task 9: Network Vulnerability Scanning
 
-## Author
-Mounika
-
 ## Objective
 The objective of this task is to perform network vulnerability scanning using Nmap to identify live hosts, open ports, running services, operating system details, and possible security risks in a local network.
 
